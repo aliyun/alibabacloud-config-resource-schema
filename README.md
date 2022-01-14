@@ -1,0 +1,1 @@
+# alibabacloud-config-resource-schema
