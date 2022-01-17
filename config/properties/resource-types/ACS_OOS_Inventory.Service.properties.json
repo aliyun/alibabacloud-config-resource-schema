@@ -1,0 +1,28 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "TypeName": "string",
+    "SchemaVersion": "string",
+    "Entries.Status": "string",
+    "Entries.ServiceType": "string",
+    "Entries.ServicesDependedOn": "string",
+    "Entries.DisplayName": "string",
+    "Entries.StartType": "string",
+    "Entries.DependentServices": "string",
+    "Entries.Name": "string"
+
+}

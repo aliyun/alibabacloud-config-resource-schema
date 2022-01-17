@@ -1,0 +1,33 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+	"Origin":"string",
+	"ProtectionLevel":"string",
+	"Description":"string",
+	"LastRotationDate":"string",
+	"RotationInterval":"string",
+	"KeySpec":"string",
+	"KeyUsage":"string",
+	"PrimaryKeyVersion":"string",
+	"Creator":"string",
+	"DeleteDate":"string",
+	"AutomaticRotation":"string",
+	"NextRotationDate":"string",
+	"MaterialExpireTime":"string",
+	"PaymentType":"string"
+
+}

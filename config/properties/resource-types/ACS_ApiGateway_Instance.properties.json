@@ -1,0 +1,32 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "VpcEgressAddress": "string",
+    "InstanceSpecification": "string",
+    "InternetEgressAddress": "ip",
+    "ZoneId": "string",
+    "InstanceSpecAttributes.Value": "string",
+    "InstanceSpecAttributes.LocalName": "string",
+    "InstanceRpsLimit": "long",
+    "VpcSlbIntranetEnable": "boolean",
+    "UserVpcId": "string",
+    "HttpsPolicies": "string",
+    "VpcIntranetEnable": "boolean",
+    "PaymentType": "string",
+    "InstanceType": "string"
+
+}

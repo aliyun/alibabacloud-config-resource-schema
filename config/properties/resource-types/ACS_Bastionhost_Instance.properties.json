@@ -1,0 +1,30 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+	"LicenseCode":"string",
+	"Description":"string",
+	"VSwitchId":"string",
+	"VpcId":"string",
+	"PublicNetworkAccess":"boolean",
+	"AuthorizedSecurityGroups" :"string",
+	"InternetEndpoint":"string",
+	"PaymentType":"string",
+	"RegionId":"string",
+	"ExpiredTime":"date",
+	"IntranetEndpoint":"string"
+
+}

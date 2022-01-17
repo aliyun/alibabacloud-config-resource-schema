@@ -1,0 +1,26 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "DisableInternet": "boolean",
+    "ForceNonceCheck": "boolean",
+    "ResultType": "string",
+    "AllowSignatureMethod": "string",
+    "AppCodeAuthType": "string",
+    "Visibility": "string",
+    "AuthType": "string"
+
+}

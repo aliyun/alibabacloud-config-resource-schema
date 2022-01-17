@@ -1,0 +1,30 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "SchemaVersion": "string",
+    "Entries.Status": "string",
+    "Entries.PlatformName": "string",
+    "Entries.PlatformVersion": "string",
+    "Entries.AgentType": "string",
+    "Entries.InstanceId": "string",
+    "Entries.AgentVersion": "string",
+    "Entries.ComputerName": "string",
+    "Entries.IpAddress": "ip",
+    "Entries.ResourceType": "string",
+    "Entries.PlatformType": "string"
+
+}

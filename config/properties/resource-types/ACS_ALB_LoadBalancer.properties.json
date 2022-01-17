@@ -1,0 +1,28 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+	"LoadBalancerEdition":"string",
+	"DnsName":"string",
+	"ZoneId":"string",
+	"LoadBalancerBillingConfig.PayType":"string",
+	"ZoneMappings.ZoneId":"string",
+	"ZoneMappings.VSwitchId":"string",
+	"VpcId":"string",
+	"BandwidthPackageId":"string",
+	"AddressType":"string",
+	"AddressAllocatedMode":"string"
+}

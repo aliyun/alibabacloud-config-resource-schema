@@ -1,0 +1,30 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "Description": "string",
+    "InstanceChargeType": "string",
+    "ForwardTableIds.ForwardTableId": "string",
+    "AutoPay": "boolean",
+    "DeletionProtection": "boolean",
+    "BusinessStatus": "string",
+    "NatType": "string",
+    "InternetChargeType": "string",
+    "VpcId": "string",
+    "SnatTableIds.SnatTableId": "string",
+    "Spec": "string"
+
+}

@@ -1,0 +1,28 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+	"SlsProjectArn":"string",
+    "MnsTopicArn":"string",
+    "RoleName":"string",
+    "EventRW":"string",
+    "OssKeyPrefix":"string",
+    "OssBucketName":"string",
+    "TrailName":"string",
+    "SlsWriteRoleArn":"string",
+    "TrailRegion":"string",
+    "IsOrganizationTrail":"boolean"
+}

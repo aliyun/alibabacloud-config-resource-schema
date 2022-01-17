@@ -1,0 +1,27 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "InternetAddress": "ip",
+    "RegionStatus": "string",
+    "SyncStatus": "string",
+    "SgStatus": "string",
+    "Type": "string",
+    "IntranetAddress": "ip",
+    "Note": "string",
+    "BindInstanceName": "string",
+    "ProtectStatus": "string"
+}

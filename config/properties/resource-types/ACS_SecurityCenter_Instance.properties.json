@@ -1,0 +1,37 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "NotifyChannels.Project":"string",
+    "NotifyChannels.Route":"integer",
+    "NotifyChannels.TimeLimit":"integer",
+    "NotifyChannels.AliUid":"long",
+    "VersionConfig.IsOverBalance":"boolean",
+    "VersionConfig.AssetLevel":"integer",
+    "VersionConfig.InstanceId":"string",
+    "VersionConfig.AppWhiteListAuthCount":"integer",
+    "VersionConfig.SasScreen":"integer",
+    "VersionConfig.SasLog":"integer",
+    "VersionConfig.Version":"integer",
+    "VersionConfig.IsTrialVersion":"integer",
+    "VersionConfig.SlsCapacity":"integer",
+    "VersionConfig.WebLockAuthCount":"integer",
+    "VersionConfig.AppWhiteList":"integer",
+    "VersionConfig.UserDefinedAlarms":"integer",
+    "VersionConfig.WebLock":"integer"
+
+
+}

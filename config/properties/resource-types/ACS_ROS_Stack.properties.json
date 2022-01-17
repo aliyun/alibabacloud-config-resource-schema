@@ -1,0 +1,32 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+	"Description":"string",
+	"StatusReason":"string",
+	"ParentStackId":"string",
+	"TemplateDescription":"string",
+	"StackPolicyBody":"string",
+	"RootStackId":"string",
+	"RosDeletionProtection":"string",
+	"RamRoleName":"string",
+	"DriftDetectionTime":"string",
+	"StackDriftStatus":"string",
+	"DisableRollback":"boolean",
+	"TimeoutInMinutes":"integer",
+	"StackId":"string"
+
+}

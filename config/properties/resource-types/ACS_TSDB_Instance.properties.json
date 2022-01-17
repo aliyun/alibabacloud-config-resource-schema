@@ -1,0 +1,33 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+	"MemorySize":"string",
+	"InstanceStorage":"string",
+	"ZoneId":"string",
+	"AutoRenew":"boolean",
+	"VSwitchId":"string",
+	"DiskCategory":"string",
+	"InstanceClass":"string",
+	"CpuNumber":"string",
+	"VpcConnectionAddress":"string",
+	"VpcId":"string",
+	"NetworkType":"string",
+	"ExpiredTime":"date",
+	"PaymentType":"string",
+	"EngineType":"string"
+
+}

@@ -1,0 +1,33 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+	"Description":"string",
+	"SourceInstanceIdsReverseMatch":"boolean",
+	"TransmitDirection":"string",
+	"DestinationInstanceIdsReverseMatch":"boolean",
+	"RouteMapId":"string",
+	"Priority":"integer",
+	"AsPathMatchMode":"string",
+	"MapResult":"string",
+	"CidrMatchMode":"string",
+	"Preference":"integer",
+	"CommunityOperateMode":"string",
+	"CenId":"string",
+	"NextPriority":"integer",
+	"CommunityMatchMode":"string"
+
+}

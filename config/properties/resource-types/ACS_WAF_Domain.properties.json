@@ -1,0 +1,31 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+	"HttpToUserIp":"integer",
+	"IsAccessProduct":"integer",
+	"InstanceId":"string",
+	"Domain":"string",
+	"ClusterType":"string",
+	"LoadBalancing":"integer",
+	"Cname":"string",
+	"LogHeaders.V":"string",
+	"LogHeaders.K":"string",
+	"Version":"string",
+	"HttpsRedirect":"integer",
+	"SourceIps":"string"
+
+}
