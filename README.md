@@ -1,6 +1,6 @@
 ## Alibaba Cloud Config Resource Schema
 
-Alibaba Cloud Config资源属性文件定义可用于搜索的Config资源配置项 (CI) 的属性和类型。这些文件定义了可供搜索的资源属性，提供用户使用SQL更准确地查询适合特定资源类型
+Alibaba Cloud Config资源类型属性文件列举了可用于搜索查询的属性和类型，方便用户使用SQL更准确地查询特定资源类型
 
 此库具有以下目录结构：
 
@@ -9,8 +9,8 @@ Alibaba Cloud Config资源属性文件定义可用于搜索的Config资源配置
     ├── properties
     │   ├── ACS.properties.json
     │   └── resource-types
-    │       ├── ACS::ACM::Certificate.properties.json
-    │       ├── ACS::AutoScaling::AutoScalingGroup.properties.json
+    │       ├── ACS_ACM_Certificate.properties.json
+    │       ├── ACS_AutoScaling_AutoScalingGroup.properties.json
     ...     ...
 ```
 
@@ -22,7 +22,7 @@ Alibaba Cloud Config资源属性文件定义可用于搜索的Config资源配置
 {
   "...": "...",
   "sample.property.name": "string",
-  "...": "...",
+  "...": "..."
 }
 ```
 
@@ -51,7 +51,7 @@ Config 支持的每种资源类型都存在资源属性文件；它们位于conf
   "ResourceName": "string",
   "...": "...",
   "Tags.Kvpair": "string",
-  "...": "...",
+  "...": "..."
 }
 ```
 查询方式:
@@ -76,7 +76,7 @@ SELECT ResourceId, ResourceName  WHERE ResourceType='ACS::ECS::Instance' AND Reg
   "Memory":"integer",
   "...": "...",
   "Tags.Key": "string",
-  "...": "...",
+  "...": "..."
 }
 ```
 
@@ -86,6 +86,57 @@ SELECT COUNT(1) WHERE ResourceType='ACS::ECS::Instance' AND Memory=1024 AND Tags
 ```
 
 #### 示例用法 3
+
+假设我们要查询创建于2021/01/01之后的ECS实例。要查找相应的属性，首先打开资源类型的资源属性文件，找到其中相关属性：
+
+```json
+{
+  "...": "...",
+  "ResourceId": "string",
+  "...": "...",
+  "ResourceType": "string",
+  "ResourceName": "string",
+  "ResourceCreationTime": "date",
+  "...": "..."
+}
+```
+
+查询方式:
+```sql
+SELECT ResourceId, ResourceName WHERE ResourceType = 'ACS::ECS::Instance' AND ResourceCreationTime > '2021-01-01 00:00:00'
+```
+
+（注意：ResourceCreationTime属性的格式为yyyy-MM-dd HH:mm:ss）
+
+#### 示例用法 4
+
+假设我们要查询ip为192.168.128.1的ECS弹性网卡。要查找相应的属性，首先打开资源类型的资源属性文件，找到其中相关属性：
+
+```json
+{
+  "...": "...",
+  "ResourceId": "string",
+  "...": "...",
+  "ResourceType": "string",
+  "ResourceName": "string",
+  "...": "...",
+  "PrivateIpAddress": "ip",
+  "...": "..."
+}
+```
+
+查询方式:
+```sql
+SELECT * WHERE ResourceType = 'ACS::ECS::NetworkInterface' AND PrivateIpAddress = '192.168.128.1'
+```
+
+注意：ip类型的字段可以为以下形式
+* 具体的ipv4地址，如：192.168.128.1
+* 具体的ipv6地址，如：2001:db8::/48
+* ip段，如：192.168.0.0/16
+
+
+#### 示例用法 5
 
 假设我们要查询每种资源的数量，
 
