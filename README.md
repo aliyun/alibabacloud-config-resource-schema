@@ -9,8 +9,8 @@ Alibaba Cloud Config资源类型属性文件列举了可用于搜索查询的属
     ├── properties
     │   ├── ACS.properties.json
     │   └── resource-types
-    │       ├── ACS_ACM_Certificate.properties.json
-    │       ├── ACS_AutoScaling_AutoScalingGroup.properties.json
+    │       ├── ACS_ACK_Cluster.properties.json
+    │       ├── ACS_ADB_DBCluster.properties.json
     ...     ...
 ```
 
