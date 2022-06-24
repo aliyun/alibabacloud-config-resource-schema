@@ -1,0 +1,29 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "AccessConfigurationName": "string",
+    "DirectoryId": "string",
+    "TargetPathName": "string",
+    "PrincipalId": "string",
+    "TargetType": "string",
+    "PrincipalName": "string",
+    "TargetName": "string",
+    "PrincipalType": "string",
+    "AccessConfigurationId": "string",
+    "TargetId": "string"
+
+}

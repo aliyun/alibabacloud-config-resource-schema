@@ -1,0 +1,32 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "CategoryId": "string",
+    "Description": "string",
+    "Mode": "string",
+    "LastInstanceId": "string",
+    "ClusterId": "string",
+    "ProjectId": "string",
+    "Periodic": "boolean",
+    "FlowId": "string",
+    "Type": "string",
+    "Graph": "string",
+    "Application": "string",
+    "AlertConf": "string",
+    "CreateCluster": "boolean"
+
+}

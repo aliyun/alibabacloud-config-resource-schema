@@ -1,0 +1,32 @@
+{
+    "AccountId": "long",
+    "RegionId": "string",
+    "ResourceId": "string",
+    "ResourceType": "string",
+    "ResourceName": "string",
+    "AvailabilityZone": "string",
+    "ResourceCreationTime": "date",
+    "ResourceGroupId": "string",
+    "Arn": "string",
+    "ResourceStatus": "string",
+    "ResourceDeleted": "integer",
+    "TagsStr": "string",
+    "Tags.Key": "string",
+    "Tags.Value": "string",
+    "Tags.Kvpair": "string",
+
+    "FailAct": "string",
+    "CategoryId": "string",
+    "Description": "string",
+    "Mode": "string",
+    "LastInstanceId": "string",
+    "ProjectId": "string",
+    "MaxRetry": "integer",
+    "MaxRunningTimeSec": "integer",
+    "FlowId": "string",
+    "Type": "string",
+    "Adhoc": "boolean",
+    "RetryInterval": "integer",
+    "AlertConf": "string"
+
+}
