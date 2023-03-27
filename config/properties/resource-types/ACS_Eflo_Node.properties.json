@@ -13,8 +13,5 @@
   "TagsStr" : "string",
   "Tags.Key" : "string",
   "Tags.Value" : "string",
-  "Tags.Kvpair" : "string",
-
-  "ipWhiteList.IpList" : "string",
-  "ipWhiteList.VpcIpList" : "string"
+  "Tags.Kvpair" : "string"
 }

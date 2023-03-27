@@ -15,6 +15,5 @@
   "Tags.Value" : "string",
   "Tags.Kvpair" : "string",
 
-  "ipWhiteList.IpList" : "string",
-  "ipWhiteList.VpcIpList" : "string"
+  "AssociatedInstanceType" : "string"
 }
